@@ -4,7 +4,6 @@ import styles from './RadioButton.module.css';
 
 interface RadioButtonProps {
   label?: string;
-  options: string;
   name?: string;
   value?: string;
   notes?: string[];
@@ -20,9 +19,7 @@ export function RadioButton(props: Readonly<RadioButtonProps>) {
           {props.label}
         </label>
       )}
-      <input type="radio" name={props.name}>
-        {props.options}
-      </input>
+      <input type="radio" name={props.name}></input>
     </div>
   );
 }

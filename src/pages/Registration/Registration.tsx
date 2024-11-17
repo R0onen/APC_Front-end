@@ -22,9 +22,7 @@ function Registration() {
             </div>
             <div className={styles.rightInputsContainer}>
               <Input type="password" name="password" label="Фамилия" required />
-              <RadioButton name="yernur" label="Пол">
-                Мужской
-              </RadioButton>
+              <RadioButton name="yernur" label="Пол"></RadioButton>
               <RadioButton name="yernur" />
               <Input
                 type="password"
